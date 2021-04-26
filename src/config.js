@@ -34,6 +34,13 @@ module.exports = {
    port: PORT,
    host: HOST,
    url: HOST_URL,
+/*    routes: {
+    cors: {
+        origin: ["*"],
+        headers: ["Accept", "Content-Type"],
+        additionalHeaders: ["X-Requested-With"]
+    }
+    }, */
    cookiePwd: COOKIE_ENCRYPT_PWD,
    sql: {
        server: SQL_SERVER,

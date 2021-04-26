@@ -4,7 +4,7 @@ module.exports.register = async server => {
    server.route( {
        method: "GET",
        path: "/api/events",
-       config: {
+           config: {
            handler: async request => {
                try {
                    // get the sql client registered as a plugin
@@ -23,5 +23,6 @@ module.exports.register = async server => {
                }
            }
        }
+    
    } );
 };
